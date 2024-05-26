@@ -38,12 +38,15 @@ This command will take all your source code from ./src/ directory, process it an
 ```bash
 npm run dev
 ```
-This command will enable live refresh/HMR (depending on template) and let you 
-How exactly it works depends on a bundler, so refer to your template's README.md
+This command will enable live refresh/HMR (depending on template) and let you significantly accelerate development.
+
+How exactly it works depends on a bundler, so refer to your template's README.md.
 
 # Defines
 All of the templates that use bundlers provide 3 defines that you can use to distinguish between different environments.
 
 `process.env.ENV` is either `development` or `production`.
+
 `process.env.DEV` is set to true in development mode, otherwise it is undefined.
+
 `process.env.PROD` is similarly set to true in production mode, otherwise it is undefined.
