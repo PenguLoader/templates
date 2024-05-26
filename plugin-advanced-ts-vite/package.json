@@ -1,0 +1,22 @@
+{
+    "name": "plugin-advanced-vite-hmr",
+    "description": "TBD",
+    "private": true,
+    "version": "1.0.0",
+    "license": "WTFPL",
+    "type": "module",
+    "config": {
+        "penguPath": "YOUR PENGU PATH HERE"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.7",
+        "esbuild": "^0.20.2",
+        "typescript": "^5.4.5",
+        "vite": "^4.4.8",
+        "vite-plugin-mkcert": "^1.16.0"
+    }
+}

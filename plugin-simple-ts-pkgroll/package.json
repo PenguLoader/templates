@@ -1,0 +1,17 @@
+{
+    "name": "plugin-simple-ts-pkgroll",
+    "description": "TBD",
+    "private": true,
+    "version": "1.0.0",
+    "license": "WTFPL",
+    "type": "module",
+    "module": "./dist/index.js",
+    "scripts": {
+        "dev": "pkgroll --watch --env.ENV=development --env.DEV=true",
+        "build": "pkgroll --minify --env.ENV=production --env.PROD=true"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.12",
+        "pkgroll": "^2.0.2"
+    }
+}

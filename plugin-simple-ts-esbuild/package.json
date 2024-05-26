@@ -1,0 +1,20 @@
+{
+    "name": "plugin-simple-ts-esbuild",
+    "description": "TBD",
+    "private": true,
+    "version": "1.0.0",
+    "license": "WTFPL",
+    "type": "module",
+    "module": "./dist/index.js",
+    "config": {
+        "penguPath": "YOUR PENGU PATH HERE"
+    },
+    "scripts": {
+        "dev": "node esbuild.dev.js",
+        "build": "node esbuild.prod.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.12",
+        "esbuild": "^0.21.1"
+    }
+}
